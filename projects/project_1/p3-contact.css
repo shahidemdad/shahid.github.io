@@ -54,6 +54,8 @@
 #fname {
     width: 80%;
     height: 100%;
+    vertical-align: top;
+    
 }
 .email-input {
     width: 40%;
@@ -67,6 +69,15 @@
     height: 40%;
     float: left;
     margin: 2%;
+}
+
+.submit {
+    padding: 2%;
+    background-color: black;
+    color: white;
+    margin-top: -10%;
+    margin-left: 60%;
+    
 }
 
 .nav{
