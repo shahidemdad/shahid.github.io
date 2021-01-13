@@ -19,7 +19,7 @@
     animation-name: long-hand-rotation;
     transform-origin: left;
     animation-fill-mode: forwards;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
 }
@@ -42,7 +42,7 @@
     transform-origin: left;
     animation-fill-mode: forwards;
     animation-delay: 80ms;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-iteration-count:1;
     animation-timing-function: linear;
 }
