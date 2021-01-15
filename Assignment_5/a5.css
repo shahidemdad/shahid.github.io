@@ -1,0 +1,125 @@
+
+.container {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(238, 218, 188);
+
+}
+
+.box1 {
+    float: left;
+    width: 40%;
+    height: 80%;
+    background-color: rgb(127, 221, 191);
+    border: 2px solid red;
+    margin: 3%;
+    padding: 1%;
+
+}
+
+.box1 img {
+    margin-left: 10%;
+    padding: 3%;
+    width: 70%;
+    height: 70%;
+}
+
+.box1 p {
+    text-align: center;
+}
+
+.box1 a {
+    margin-left: 35%;    
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 145, 0);
+}
+
+.box2 {
+    float: left;
+    width: 40%;
+    height: 80%;
+    background-color: rgb(127, 221, 191);
+    border: 2px solid red;
+    margin: 3%;
+    padding: 1%;
+}
+
+.box2 img {
+    margin-left: 10%;
+    padding: 4%;
+    width: 70%;
+    height: 70%;
+}
+
+.box2 p {
+    text-align: center;
+}
+
+.box2 a {
+    margin-left: 35%;    
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 145, 0);
+}
+
+.openwindow {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(127, 181, 218, 0.9);
+    opacity: 0;
+    pointer-events: none;    
+    /* width: 50%;
+    height: 50%; */
+}
+.box {
+    height: 700px;
+    background-color: rgb(226, 226, 186);
+    margin: 5%;
+}
+.openwindow h1 {
+    padding-top: 1%;
+    font-size: 50px;
+    height: 60px;
+    width: 100%;
+    background-color: palevioletred;
+}
+
+.openwindow p {
+    margin: 4%;
+    padding: 1%;    
+    /* height: 60px; */
+    width: 60%;
+    background-color: rgb(56, 233, 165);
+}
+
+.openwindow img {
+    float: left;
+    padding: 5%;
+    width: 300px;
+    height: 300px;
+}
+
+.close {
+    padding: 2%;
+    color: wheat;
+    float: right; 
+    margin-right: 50%;   
+    background-color: brown;
+}
+
+.openwindow #x {
+    position: fixed;
+    color: white;
+    background-color: pink;
+    margin-top: -14.5%;
+    margin-left: 89.3%;    
+}
+
+.openwindow:target {
+    opacity: 1;
+    pointer-events: all;
+}
