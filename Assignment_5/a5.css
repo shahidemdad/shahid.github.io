@@ -112,11 +112,12 @@
 }
 
 .openwindow #x {
+    padding: 1%;
     position: fixed;
     color: white;
     background-color: rgb(255, 0, 0);
-    margin-top: -14.5%;
-    margin-left: 89.3%;    
+    margin-top: -16%;
+    margin-left: 87%;    
 }
 
 .openwindow:target {
