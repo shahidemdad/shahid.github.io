@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Guess the Number</title>
+</head>
+
+<body>
+    <div id="heading-div">
+        <h4> Guess a number between 1 and 100 </h4>
+        <!-- <button onclick="resetButton()" id="play-button"> Play!</button> -->
+        <button id="play-button"> Play!</button>
+        <br>
+        <center><h1 class="title-size"> Guess My Number!</h1></center>
+    </div>
+
+    <div id="main-display-container">
+
+        <div class="horizontal-line-div">
+            <hr class="horizontal-line">
+        </div>
+        <div id="display-box">
+            <p id="display-box-text"> ? </p>
+        </div>
+    </div>
+    <div id="bottom-half-of-page-div">
+        <div class="inner-half-page-div">
+            <center>
+                <h4 class="guess-indicator"> Waiting for a number... </h4>
+            </center>
+            <center>
+                <h4 class="score"> Score: </h4>
+            </center>
+            <center>
+                <h4 class="highscore"> Highscore : </h4>
+            </center>
+        </div>
+        <div class="inner-half-page-div">
+            <center>
+                <input type="number" id="input-number" name="input">
+            </center>
+            <br>
+            <center>
+                <button id="check-button"> Check!</button>
+            </center>
+        </div>
+
+        <footer class="authors">
+            <center>
+                <h3>Project 3 made by</h3>
+                <p>Thierno Bah</p>
+                <p>Shahid Emdad</p>
+                <p>Mohammed Chowdhury</p>
+            </center>
+        </footer>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="script2.js"></script>
+</body>
+
+</html>
