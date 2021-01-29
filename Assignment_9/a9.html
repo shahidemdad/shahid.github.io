@@ -5,20 +5,20 @@
         <link rel="stylesheet" href="a9.css">
     </head>
     <body>
-        <h1>Assignment 9</h1>
-        <div class="window"></div>
-            <button><a href="#modalwindow">Button 1</a></button>
-            <button><a href="#modalwindow">Button 2</a></button>
-            <button><a href="#modalwindow">Button 3</a></button>
-        </div>
-        <div id="modalwindow" class="openwindow">
-            <div class="whole-window">
-                <a><button id="x">X</button></a>
-                <div class="description">                    
-                    <p> I am a modal window</p>
-                </div>
+        <h1 align='center'>Assignment 9</h1>
+        <div class="buttonHolder">
+            <button type="button" name="button" class="button">Button 1</button>
+            <button type="button" name="button" class="button">Button 2</button>
+            <button type="button" name="button" class="button">Button 3</button>
+          </div>
+      
+          <div id="openModal" class="ModalWindow">
+            <div class="msgtext">
+              <h1>This is a modal window!</h1>
+              <p>Modal Window Works!</p>
+              <button type="button" name="button" id="closebutton">X</button>
             </div>
-        </div>
+          </div>
         <script src="a9.js"></script>
     </body>
 </html>

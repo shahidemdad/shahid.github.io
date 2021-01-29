@@ -34,3 +34,22 @@ console.log('Task1:')
 console.log(john.firstName, john.lastName, 'has', john.friends.length, 'friends, and his best friend is called', john.friends[1],'.')
 console.log('Task2:')
 console.log(john.getSummary())
+
+var elements = document.getElementsByClassName("button");
+
+var visibleFunction = function() {
+  let d = document.getElementById("openModal");
+  d.className += " visible";
+};
+
+for (var i = 0; i < elements.length; i++) {
+    elements[i].addEventListener('click', visibleFunction, false);
+}
+
+var noSightFunction = function(){
+  let d = document.getElementById("openModal");
+  d.classList.remove("visible");
+}
+
+var closeButton = document.getElementById("closebutton")
+closeButton.addEventListener('click', noSightFunction, false)
