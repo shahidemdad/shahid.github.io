@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 14</title>
+        <style>
+            body {
+                background: #c9a480;
+                text-align: center;
+            }
+
+            input {
+                height: 40px;
+                width: 50%;
+                margin: 2%;
+            }
+
+            button {
+                padding: 1%;
+                font-size: larger;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Collecting Weight and Height for BMI</h1>
+        <h2>Please fill the entries to get populations
+            statistics on Weight, Height and BMI
+        </h2>
+        <form action="{{url_for('thankyou')}}" method="POST">
+            <input name="email_name" placeholder="Enter your email" type="email" required value="">
+            <input name="height_name" placeholder="Enter your Height in Meter" type="number" required value="">
+            <input name="weight_name" placeholder="Enter your Weight in Meter" type="number" required value="">
+            <br>
+            <button type="submit" name="button">Submit</button>
+        </form>
+    </body>
+</html>
